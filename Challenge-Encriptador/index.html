@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1: Encriptador</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <img class="image" src="images/transparente.webp" alt="">
+            <h1 class="tittle">Encriptador de mensajes</h1>
+        </div>
+        <div class="left">
+            <input autocomplete="off" id="input-text" class="text-input" placeholder="Escriba aqui para encriptar..." type="text">
+            <div class="left-button">
+                <button class="boton" type="button" id="btn-encry" onclick="encriptar()">Encriptar</button>
+            </div>
+        </div>
+
+        <div class="center">
+            <img id="image-lupa" src="images/magnifier-cartoon-style-isolated-white-background-free-vector.jpg" alt="">
+            <h2 id="text-lupa">Ingrese una palabra o frase para encriptar o desencriptar...</h2>
+            <textarea id="text-area" name="" id="texto2" cols="30" rows="10"></textarea>
+            <button id="copy" type="button" name="button" onclick="copiado()">Copiar texto</button>
+        </div>
+        <div class="right">
+            <input autocomplete="off" id="input-text2" class="text-input2" placeholder="Escriba aqui para desencriptar..." type="text">
+            <div class="right-button">
+                <button class="boton2" type="button" id="btn-desencry" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        
+
+        <!--
+        <div class="right">
+            <img id="image-lupa" src="images/magnifier-cartoon-style-isolated-white-background-free-vector.jpg" alt="">
+            <h2 id="text-lupa">Ingrese una palabra o frase para encriptar</h2>
+            <textarea id="text-area" name="" id="texto2" cols="30" rows="10"></textarea>
+            <button id="copy" type="button" name="button" onclick="copiar()">Copiar texto</button>
+        </div>
+        <div class="left-button">
+            <button class="boton" type="button" id="btn-encry" onclick="encriptar()">Encriptar</button>
+            <button class="boton2" type="button" id="btn-desencry" onclick="desencriptar()">Desencriptar</button>
+        </div>
+        --> 
+
+    </div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
